@@ -1,5 +1,5 @@
 ---
-title: "____"
+title: "___"
 author: "___, ___, ___, ___"
 format:
   html:
@@ -8,7 +8,7 @@ format:
     toc: true
 editor: visual
 lang: fr
-bibliography: biblio.bib
+bibliography: references.bib
 ---
 
 <!--# Ceci est un commentaire. -->
@@ -19,13 +19,13 @@ bibliography: biblio.bib
 
 ## Introduction et but
 
-<!--% Rédigez une courte introduction de 3 ou 5 phrases concernant vos données et une phrase pour le but du travail. Vous pouvez citer la bibliographie en utilisant le formatage Markdown ad hoc et en incluant votre référence au format bibtex dans le fichier references.bib. -->
+<!--% Rédigez une courte introduction de 3 ou 5 phrases qui présente vos données. Ajoutez une phrase de but (que vous remanierez éventuellement en fonction des modèles que vous ajouterez plus tard). Vous pouvez citer la bibliographie en utilisant le formatage Markdown ad hoc et en incluant votre référence au format bibtex dans le fichier references.bib. -->
 
 ... Introduction et but...
 
 ## Matériel et méthodes
 
-<!--% Indiquez ici d'où viennent les données et aussi quel logiciel (et version) vous utilisez pour les analyses. Inspirez-vous des projets réalisés lors du premier module de SDD II. -->
+<!--% Indiquez ici d'où viennent les données et aussi quel logiciel (et version) vous utilisez pour les analyses. Inspirez-vous des projets du premier module de SDD II. -->
 
 ...Matériel et méthodes...
 
@@ -38,7 +38,7 @@ if (!"tools:tests" %in% search())
 # Configuration de l'environnement
 ```
 
-<!--% Importez les données que vous préalablement nettoyée, remaniée et labélisée dans le script R nommé `import.R`. -->
+<!--% Importez les données que vous aurez préalablement nettoyées, remaniées et labélisées dans le script R nommé `R/import.R`. -->
 
 ```{r import}
 # Lecture des données
@@ -49,7 +49,7 @@ tabularise$headtail(___)
 
 ### Description des données
 
-<!--% Chaque étudiant réalise et interprète un graphique pertinent. Graphique et interprétation de l'étudiant #1 ci-dessous. -->
+<!--% Chaque étudiant réalise et interprète un graphique pertinent par rapport à l'objectif de modéliser ces données. Graphique et interprétation de l'étudiant #1 ci-dessous. -->
 
 ```{r chart1}
 
@@ -81,33 +81,37 @@ tabularise$headtail(___)
 
 ... interprétation #4...
 
-<!--% Graphique et interprétation de l'étudiant #5 ci-dessous(effacez cette section si vous n'êtes que quatre). -->
-
-```{r chart5}
-
-```
-
-... interprétation #5...
-
 ### Modélisation
 
-<!--% Chaque modèle doit être décrit à l'aide d'un graphique et d'un tableau résumant le modèle. Les équations paramétrées de tous les modèles doivent être proposées. L'analyse des résidus doit être réalisée pour chaque modèle. -->
+<!--% Chaque modèle doit être décrit à l'aide d'un graphique et d'un tableau résumant le modèle. Les équations paramétrées de tous les modèles doivent être également présentes. L'analyse des résidus sera réalisée et interprétée pour chaque modèle. -->
 
-#### Modélisation via la régression linéaire simple, multiple et polynomiale
+#### Régression linéaire 1
 
-<!--% Proposez un modèle par étudiant dans cette section.-->
+<!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
 
-#### Modélisation via le modèle linéaire
+#### Régression linéaire 2
 
-<!--% Proposez un modèle par étudiant dans cette section.-->
+<!--% Ajustez une régression linéaire simple, multiple ou polynomiale par paire d'étudiants dans cette section (donc, deux modèles pour l'équipe de quatre). -->
 
-#### Modélisation via le modèle linéaire généralisé.
+#### Modèle linéaire 1
 
-<!--% Proposez un modèle par étudiant dans cette section.-->
+<!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
+
+#### Modèle linéaire 2
+
+<!--% Construisez un modèle linéaire par paire d'étudiants dans cette section. -->
+
+#### Modèle linéaire généralisé et/ou mixte 1
+
+<!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
+
+#### Modèle linéaire généralisé et/ou mixte 2
+
+<!--% Élaborez un modèle linéaire généralisé ou mixte par paire d'étudiants dans cette section. -->
 
 ## Conclusions
 
-<!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 5 à 10 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les modèles les plus pertinents que vous retenez ? -->
+<!--% Lorsque toutes les analyses sont réalisées, terminez ce bloc-notes avec 3 à 6 phrases de conclusion en rapport avec ce que vous avez observé dans vos analyses. Quels sont les modèles les plus pertinents que vous retenez ? -->
 
 ...vos conclusions ici...
 
