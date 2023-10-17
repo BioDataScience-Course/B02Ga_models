@@ -2,22 +2,22 @@
 models_report <- parse_rmd("../../models_report.qmd",
   allow_incomplete = TRUE, parse_yaml = TRUE)
 
-test_that("Le rapport est-il compilé en un fichier final HTML ?", {
-  expect_true(is_rendered("models_report.qmd"))
-  # La version compilée HTML du carnet de notes est introuvable
+test_that("Le rapport est-il compilé en un fichier final PDF ?", {
+  expect_true(is_rendered("models_report.pdf"))
+  # La version compilée PDF du carnet de notes est introuvable
   # Vous devez créer un rendu de votre bloc-notes Quarto (bouton 'Rendu')
   # Vérifiez aussi que ce rendu se réalise sans erreur, sinon, lisez le message
   # qui s'affiche dans l'onglet 'Travaux' et corrigez ce qui ne va pas dans
-  # votre document avant de réaliser à nouveau un rendu HTML.
+  # votre document avant de réaliser à nouveau un rendu PDF.
   # IL EST TRES IMPORTANT QUE VOTRE DOCUMENT COMPILE ! C'est tout de même le but
-  # de votre analyse que d'obtenir le document final HTML.
+  # de votre analyse que d'obtenir le document final PDF.
 
-  expect_true(is_rendered_current("models_report.qmd"))
-  # La version compilée HTML du document Quarto existe, mais elle est ancienne
+  expect_true(is_rendered_current("models_report.pdf"))
+  # La version compilée PDF du document Quarto existe, mais elle est ancienne
   # Vous avez modifié le document Quarto après avoir réalisé le rendu.
-  # La version finale HTML n'est sans doute pas à jour. Recompilez la dernière
+  # La version finale PDF n'est sans doute pas à jour. Recompilez la dernière
   # version de votre bloc-notes en cliquant sur le bouton 'Rendu' et vérifiez
-  # que la conversion se fait sans erreur. Sinon, corrigez et regénérez le HTML.
+  # que la conversion se fait sans erreur. Sinon, corrigez et regénérez le PDF.
 })
 
 test_that("La structure du document est-elle conservée ?", {
