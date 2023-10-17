@@ -5,13 +5,16 @@
 
 
 
-# Etape 2 : Nettoyage des données  ----------------------------------------
+# Etape 2 : Description brève des données ---------------------------------
 
 
 
-# Etape 3 : Ajout des labels et des unités --------------------------------
+# Etape 3 : Nettoyage des données  ----------------------------------------
 
 
-# Etape 4 : Sauvegarde locale des données retravaillées -------------------
 
+# Etape 4 : Ajout des labels et des unités --------------------------------
+
+
+# Etape 5 : Sauvegarde locale des données retravaillées -------------------
 

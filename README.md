@@ -51,7 +51,7 @@ Voici plusieurs sites que vous pouvez utiliser pour rechercher vos données :
 
 Vous suivrez les instructions du fichier `data/README.md` pour récupérer vos données depuis une URL de téléchargement directe avec mise en cache dans `data/cache`.
 
-Effectuez une première description grossière des données pour vérifier, notamment, s'il n'y a pas trop de valeurs manquantes et consultez un enseignant pour qu'il valide votre choix avant de passer à l'étape suivante.
+Effectuez une première description grossière des données pour vérifier, notamment, s'il n'y a pas trop de valeurs manquantes et consultez un enseignant pour qu'il valide votre choix avant de passer à l'étape suivante. Les différentes étapes sont à réaliser dans le script R `import.R`.
 
 ### Étape 2 (module 2)
 
