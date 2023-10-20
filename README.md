@@ -30,7 +30,7 @@ Vous allez rechercher des données sur Internet qui se prêtent au type d'analys
     -   au minimum une variable à deux niveaux
     -   au minimum une variable à plusieurs niveaux
 
-Vous devez être particulièrement vigilant sur la "qualité" des données et des métadonnées.
+Vous devez être particulièrement vigilant sur la qualité des données et des métadonnées.
 
 -   Avez-vous assez d'information pour comprendre l'objectif de l'acquisition de ces données ?
 -   Avez-vous assez d'information pour comprendre chaque colonne du tableau ?
@@ -55,7 +55,7 @@ Effectuez une première description grossière des données pour vérifier, nota
 
 ### Étape 2 (module 2)
 
--   Rédigez une courte introduction et un but à votre carnet de notes nommés `models_notebook.qmd`.
+-   Rédigez une courte introduction et un but à votre carnet de notes nommé `models_notebook.qmd`.
 -   Complétez la section relative aux régressions linéaires simples, polynomiales et multiples.
 
 ### Étape 3 (module 3)
@@ -68,7 +68,7 @@ Effectuez une première description grossière des données pour vérifier, nota
 
 ### Étape 5 (modules 4 et 5)
 
--   Sélectionnez vos deux modèles les plus pertinents et rédigez un rapport complet dans `models_report.qmd`. Utilisez un style et une présentation de l'information adéquats par rapport à ce type de document (donc pas un simple copier-coller du bloc-notes). Ajoutez des légendes aux figures et aux tables, numérotez-les et citez-les dans le texte à l'aide de la syntaxe adéquate des documents Quarto (voir <https://quarto.org/docs/authoring/cross-references.html>). Citez également vos références dans le texte (voir <https://quarto.org/docs/authoring/footnotes-and-citations.html>).
+-   Sélectionnez vos deux modèles les plus pertinents et rédigez un rapport complet dans `models_report.qmd`. Utilisez un style et une présentation de l'information adéquats par rapport à ce type de document (donc pas un simple copier-coller du bloc-notes). Ajoutez des légendes aux figures et aux tables, numérotez-les et citez-les dans le texte à l'aide de la syntaxe adéquate des documents Quarto (voir <https://quarto.org/docs/authoring/cross-references.html>). Citez également vos références dans le texte (voir <https://quarto.org/docs/authoring/footnotes-and-citations.html>). Si nécessaire, vous pouvez vous inspirer de l'exemple de rapport dans le projet `B01Ia_achatina`, voir <https://github.com/BioDataScience-Course/B02Ia_achatina/tree/main>.
 
 ## Important
 
@@ -76,4 +76,4 @@ Faites des commit - pull - push réguliers et gérez les conflits éventuels imm
 
 Effectuez un 'Rendu' des documents finaux en HTML et assurez-vous que ce rendu se fait sans erreurs à la fin de votre travail (c'est très important car c'est en effet ce document final que l'on souhaite obtenir en éditant un fichier Quarto) !
 
-À la fin, vérifiez que le dernier commit soit bien pris en compte dans votre dépôt sur GitHub. Nous ne voyons que la version GitHub et c'est cette dernière qui sera corrigée et évaluée. Il est donc crucial que vos dépôts locaux soient bien synchronisés avec GitHub à la fin de votre travail.
+À la fin, vérifiez que le dernier commit soit bien pris en compte dans votre dépôt sur GitHub. Vos enseignants ne voient que la version GitHub et c'est cette dernière qui sera corrigée et évaluée. Il est donc crucial que vos dépôts locaux soient bien synchronisés avec GitHub à la fin de votre travail.

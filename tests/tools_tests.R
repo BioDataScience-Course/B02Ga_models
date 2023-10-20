@@ -1,7 +1,7 @@
 # Functions to test projects
 # Copyright (c) 2023, Philippe Grosjean (phgrosjean@sciviews.org) &
 #   Guyliann Engels (Guyliann.Engels@umons.ac.be)
-# Version 1.1.0
+# Version 1.2.0
 
 
 # Transformation functions ------------------------------------------------
@@ -37,8 +37,10 @@ digest <- function(object, algo = "md5", ...) {
 }
 
 object_attr <- function(object, attrib = "class", ...) {
-  # Only record an attribute of an object
-  attr(object, attrib)
+  # Only record one or more attributes of an object
+  attribs <- strsplit(attrib, ",", fixed = TRUE)[[1]] |> trimws()
+  all_attribs <- attributes(object)
+  all_attribs[attribs]
 }
 
 object_part <- function(object, part = "x", ...) {
