@@ -1,8 +1,8 @@
 Package: B02Ga_models
 Type: Package
-Version: 1.0.0
+Version: 2.0.0
 Title: Modélisation sur des données choisies
-Description: Projet en groupe du module 2 du cours SDD II à l'UMONS
+Description: Projet en groupe des modules 2 à 5 du cours SDD II à l'UMONS
 Authors@R: c(
   person("Guyliann", "Engels", role = c("aut", "cre"),
     email = "guyliann.engels@umons.ac.be",
@@ -11,9 +11,9 @@ Authors@R: c(
     email = "phgrosjean@sciviews.org",
     comment = c(ORCID = "0000-0002-2694-9471"))
   )
-Depends: R (>= 4.2.3)
-SystemRequirements: SciViews Box 2023 (https://www.sciviews.org/software/svbox/)
-License: MIT
+Depends: R (>= 4.3.0)
+SystemRequirements: SciViews Box 2024 (https://www.sciviews.org/software/svbox/)
+License: CC BY-NC-SA 4.0
 URL: https://github.com/BioDataScience-Course/B02Ga_models
 BugReports: https://github.com/BioDataScience-Course/B02Ga_models/issues
 Encoding: UTF-8
