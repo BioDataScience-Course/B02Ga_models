@@ -68,7 +68,11 @@ Effectuez une première description grossière des données pour vérifier, nota
 
 ### Étape 5 (modules 4 et 5)
 
--   Sélectionnez vos deux modèles les plus pertinents et rédigez un rapport complet dans `models_report.qmd`. Utilisez un style et une présentation de l'information adéquats par rapport à ce type de document (donc pas un simple copier-coller du bloc-notes). Ajoutez des légendes aux figures et aux tables, numérotez-les et citez-les dans le texte à l'aide de la syntaxe adéquate des documents Quarto (voir <https://quarto.org/docs/authoring/cross-references.html>). Citez également vos références dans le texte (voir <https://quarto.org/docs/authoring/footnotes-and-citations.html>). Si nécessaire, vous pouvez vous inspirer de l'exemple de rapport dans le projet `B01Ia_achatina`, voir <https://github.com/BioDataScience-Course/B02Ia_achatina/tree/main>.
+-   Sélectionnez vos deux modèles les plus pertinents et rédigez un rapport complet dans `models_report.qmd`.
+
+Utilisez un style et une présentation de l'information adéquats par rapport à ce type de document (donc pas un simple copier-coller du bloc-notes). Ajoutez des légendes aux figures et aux tables, numérotez-les et citez-les dans le texte à l'aide de la syntaxe adéquate des documents Quarto (voir <https://quarto.org/docs/authoring/cross-references.html>). Citez également vos références dans le texte (voir <https://quarto.org/docs/authoring/footnotes-and-citations.html>).
+
+**Vous devriez vous inspirer de l'exemple de rapport dans le projet `B02Ia_achatina`, voir <https://github.com/BioDataScience-Course/B02Ia_achatina/tree/main>.**
 
 ## Important
 

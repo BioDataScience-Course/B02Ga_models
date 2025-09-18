@@ -32,10 +32,15 @@ bibliography: references.bib
 ## Analyses
 
 ```{r setup, include=FALSE}
-# Nécessaire pour les tests SDD, ne pas utiliser dans un "vrai" projet
+# Ceci est nécessaire pour les tests SDD, ne pas utiliser dans un "vrai" projet
 if (!"tools:tests" %in% search())
   source(here::here("tests/tools_tests.R"), attach(NULL, name = "tools:tests"))
+
+# Configure Knitr to use AGG as graphic device
+knitr::opts_chunk$set(dev = "ragg_png")
+
 # Configuration de l'environnement
+
 ```
 
 <!--% Importez les données que vous aurez préalablement nettoyées, remaniées et labélisées dans le script R nommé `R/import.R`. -->
@@ -49,7 +54,7 @@ tabularise$headtail(___)
 
 ### Description des données
 
-<!--% Chaque étudiant réalise et interprète un graphique pertinent par rapport à l'objectif de modéliser ces données. Graphique et interprétation de l'étudiant #1 ci-dessous. -->
+<!--% Chaque étudiant réalise et interprète un graphique pertinent en lien avec le but fixé et les modèles qui seront réalisés. Graphique et interprétation de l'étudiant #1 ci-dessous. -->
 
 ```{r chart1}
 

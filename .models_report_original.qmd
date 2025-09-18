@@ -22,7 +22,7 @@ bibliography: references.bib
 
 ## Matériel et méthodes
 
-<!--% Cette section doit comprendre deux parties. La première partie doit expliciter le données employées et la seconde traiter des analyses réalisées et des logiciels employés.-->
+<!--% Cette section doit comprendre deux parties. La première partie doit expliciter les données employées et la seconde traiter des analyses réalisées et des logiciels employés.-->
 
 ## Résultats
 
