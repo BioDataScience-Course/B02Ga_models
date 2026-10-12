@@ -1,6 +1,6 @@
 # Vérifications de models_report.qmd
-models_report <- parse_rmd("../../models_report.qmd",
-  allow_incomplete = TRUE, parse_yaml = TRUE)
+models_report <- try(parsermd::parse_qmd("../../models_report.qmd"))
+expect_true(TRUE, info = models_notebook.qmd)
 
 test_that("Le rapport est-il compilé en un fichier final PDF ?", {
   expect_true(is_rendered("models_report.pdf"))
@@ -21,7 +21,7 @@ test_that("Le rapport est-il compilé en un fichier final PDF ?", {
 })
 
 test_that("La structure du document est-elle conservée ?", {
-  expect_true(all(c("Introduction", "But", "Matériel et méthodes",
+  expect_true(all(c("Introduction", "But", "Matériel et méthodes", , "Déclaration sur l'utilisation de l'IA",
     "Résultats", "Discussion et Conclusion", "Bibliographie")
     %in% (rmd_node_sections(models_report) |> unlist() |> unique())))
   # Les sections (titres) attendues du document ne sont pas toutes présentes
@@ -41,20 +41,21 @@ test_that("La structure du document est-elle conservée ?", {
 })
 
 test_that("L'entête YAML a-t-il été complété ?", {
-  expect_true(models_report[[1]]$author != "___")
-  expect_true(!grepl("__", models_report[[1]]$author))
-  expect_true(grepl("^[^_]....+", models_report[[1]]$author))
+  authors <- models_report[[1]]@yaml[["author"]]
+  expect_true(authors != "___")
+  expect_true(!grepl("__", authors))
+  expect_true(grepl("^[^_]....+", authors))
   # Le nom d'auteur n'est pas complété ou de manière incorrecte dans l'entête
   # Vous devez indiquer votre nom dans l'entête YAML à la place de "___" et
   # éliminer les caractères '_' par la même occasion.
 
-  expect_true(grepl("[a-z]", models_report[[1]]$author))
+  expect_true(grepl("[a-z]", authors))
   # Aucune lettre minuscule n'est trouvée dans le nom d'auteur
   # Avez-vous bien complété le champ 'author' dans l'entête YAML ?
   # Vous ne pouvez pas écrire votre nom tout en majuscules. Utilisez une
   # majuscule en début de nom et de prénom, et des minuscules ensuite.
 
-  expect_true(grepl("[A-Z]", models_report[[1]]$author))
+  expect_true(grepl("[A-Z]", authors))
   # Aucune lettre majuscule n'est trouvée dans le nom d'auteur
   # Avez-vous bien complété le champ 'author' dans l'entête YAML ?
   # Vous ne pouvez pas écrire votre nom tout en minuscules. Utilisez une

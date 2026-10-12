@@ -7,6 +7,8 @@ format:
     toc: true
 editor: visual
 lang: fr
+svbox: 2026
+vm: "Ubuntu 24.04.3 LTS"
 bibliography: references.bib
 ---
 
@@ -23,6 +25,10 @@ bibliography: references.bib
 ## Matériel et méthodes
 
 <!--% Cette section doit comprendre deux parties. La première partie doit expliciter les données employées et la seconde traiter des analyses réalisées et des logiciels employés.-->
+
+### Déclaration sur l'utilisation de l'IA
+
+<!--% Précisez votre utilisation de l'IA dans ce projet. si vous avez employé l'intelligence artificielle dans votre projet. -->
 
 ## Résultats
 

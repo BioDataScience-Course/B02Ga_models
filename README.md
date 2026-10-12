@@ -72,7 +72,11 @@ Effectuez une première description grossière des données pour vérifier, nota
 
 Utilisez un style et une présentation de l'information adéquats par rapport à ce type de document (donc pas un simple copier-coller du bloc-notes). Ajoutez des légendes aux figures et aux tables, numérotez-les et citez-les dans le texte à l'aide de la syntaxe adéquate des documents Quarto (voir <https://quarto.org/docs/authoring/cross-references.html>). Citez également vos références dans le texte (voir <https://quarto.org/docs/authoring/footnotes-and-citations.html>).
 
-**Vous devriez vous inspirer de l'exemple de rapport dans le projet `B02Ia_achatina`, voir <https://github.com/BioDataScience-Course/B02Ia_achatina/tree/main>.**
+**Vous devriez vous inspirer de l'exemple de rapport dans le projet `B02Ia_achatina`, voir <https://github.com/BioDataScience-Course/B03Ia_achatina/tree/main>.**
+
+## Utilisation de l'IA générative
+
+Dans le cadre de votre travail, vous avez le droit d'être aidé par l'intelligence artificielle. Le chatbot SciViews est disponible dans votre RStudio Saturn Cloud via l'addin (extension) "Help". Il répond aux questions concernant le langage R, les statistiques et la science des données. **Vous devez indiquer clairement dans votre travail comment vous avez utilisé l'IA générative, laquelle et pour quoi faire (aide bibliographique, aide au codage en R, aide à la rédaction...)**
 
 ## Important
 
