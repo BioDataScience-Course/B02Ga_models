@@ -53,16 +53,16 @@ Vous suivrez les instructions du fichier `data/README.md` pour récupérer vos d
 
 Effectuez une première description grossière des données pour vérifier, notamment, s'il n'y a pas trop de valeurs manquantes et consultez un enseignant pour qu'il valide votre choix avant de passer à l'étape suivante. Les différentes étapes sont à réaliser dans le script R `import.R`.
 
-### Étape 2 (module 2)
+### Étape 2 (module 3)
 
 -   Rédigez une courte introduction et un but à votre carnet de notes nommé `models_notebook.qmd`.
 -   Complétez la section relative aux régressions linéaires simples, polynomiales et multiples.
 
-### Étape 3 (module 3)
+### Étape 3 (module 4)
 
 -   Complétez la section relative aux modèles linéaires.
 
-### Étape 4 (module 4)
+### Étape 4 (module 5)
 
 -   Complétez la section relative aux modèles linéaires généralisés et/ou mixtes.
 
